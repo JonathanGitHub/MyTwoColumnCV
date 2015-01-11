@@ -1,0 +1,134 @@
+%\title{My two column CV}
+%
+% tccv (two columns culum) is a LaTeX class inspired by
+% the template found at latextemplates.com by Alessandro Plasmati.
+%
+% Create by Nicola Fontana, the original files can be downloaded from:
+% http://dev.entidi.com/p/tccv/
+%
+\documentclass{tccv}
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\renewcommand\part[1]{%
+    \twocolumn[%
+    \begin{center}
+        \vskip-\lastskip%
+        {\usekomafont{part} #1} \par
+        \bigskip
+        \vspace{10 mm}
+    \end{center}]}
+
+\begin{document}
+
+\vspace{10 mm}
+\part{Jian(Jonathan) Yang}
+
+
+\section{Work Experience}
+
+\begin{eventlist}
+
+\item{February 2014 -- August 2014}
+     {Software Engineer}
+     {\bf\normalsize Branding Brand, Pittsburgh, PA}
+    
+
+Developed and maintained Android applications for world's leading retailers such as \href{http://play.google.com/store/apps/details?id=com.ae.ae}{American Eagle Outfitters} and \href{https://play.google.com/store/apps/details?id=com.vitacost.android}{Vitacost}. Implemented tools and frameworks utilized by the Android team.
+
+\item{January 2013 -- October 2013}
+     {Research Assistant}
+     {\bf\normalsize Carnegie Mellon University, Pittsburgh, PA}
+
+Gathered and analyzed data for a project involving Facebook for Professor \href{http://www.heinz.cmu.edu/~acquisti/}{Alessandro Acquisti}. Reduced time to fetch data from various websites by 80\% by coding Ruby script for the entire research team. This project is featured in the Wall Street Journal: \href{http://tinyurl.com/lye4lrc}{http://tinyurl.com/lye4lrc}
+
+\item{June 2013 -- August 2013}
+     {Software Engineer Intern}
+	 {\bf\normalsize Silver Spring Networks, Redwood City, CA}
+     
+
+Coded a craigslist-like web mashup using Ruby, Ruby on Rails, Heroku, Web Scraping, etc. Programmed a plugin which extracts data from database and executed them into pie charts.
+Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
+
+\end{eventlist}
+
+
+\section{Academic Projects}
+\begin{eventlist}
+
+\item{February 2013}
+     {\bf Gift Suggestion Application}
+     {\normalsize Java, Java Servlet, JSP, NetBeans}
+     
+Designed a web application that suggests gift ideas in picture format when users type in holiday names. Screen scraped etsy.com and subtracted image URLs from returned HTML documents.
+
+\item{January 2012 -- May 2012}
+     {\bf Android Video Surveillance App}
+     {\normalsize Java, XML, Android SDK, Eclipse, HTTP, RTSP}
+
+Coded an app for users to monitor multiple video streams from security cameras in real-time. Reduced 1,500+ lines of code to 1,000 by encapsulating code into commonly used methods. Applied the model-view-controller pattern to enable easy maintenance.
+
+
+
+\personal
+	[www.linkedin.com/in/jianjonathanyang/]
+    {203 S Craig Str \newline -- Pittsburgh, PA 15213}
+    {412-206-9622}
+    {cmu.jonathan@gmail.com}
+\section{Education}
+\begin{yearlist}
+
+\item[Master of Information Systems Management GPA: 3.4]{2012 -- 2013}
+     {Carnegie Mellon University}
+     {Pittsburgh, PA}
+
+\item[B.E. Electrical Engineering GPA: 3.4]{2008 -- 2012}
+     {Xi'an University of Science and Technology}
+     {Xi'an, China}  
+
+\end{yearlist}
+
+\section{Computer skills}
+
+\begin{factlist}
+
+
+\item{Technologies}
+     {Android SDK, JSON, XML, XSLT, REST, Git, XSLT, JSP, phpMyAdmin, MySQL}
+     
+\item{Languages}
+     {Java, HTML, CSS, Ruby, SQL, C/C++}
+     
+\item{Platforms}
+     {Mac OS, Windows, Linux}
+
+\end{factlist}
+
+\section{Awards}
+\begin{yearlist}
+
+\item[Online social networks and hiring discrimination study, Carnegie Mellon University]{May 2013}
+     {Going The Extra Mile Award}
+
+\item[A fleding project, ranked 6th out of 100 projects in Heinz College's C-Squad competition]{August 2012}
+     {Semi-final, Carpool} 
+
+\end{yearlist}
+
+
+\section{Miscellaneous}
+
+\begin{yearlist}
+
+\item[Translator for three medical teams of voluntary American ophthalmologists
+performing eye surgeries for patients in Northwestern China]{July 2012}
+	{Volunteer, GANSUINC}
+    
+\end{yearlist}
+
+
+\end{eventlist}
+
+\end{document}
+
