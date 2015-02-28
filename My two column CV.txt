@@ -1,134 +1,132 @@
-%\title{My two column CV}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
 %
-% tccv (two columns culum) is a LaTeX class inspired by
-% the template found at latextemplates.com by Alessandro Plasmati.
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
 %
-% Create by Nicola Fontana, the original files can be downloaded from:
-% http://dev.entidi.com/p/tccv/
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
 %
-\documentclass{tccv}
-\usepackage[english]{babel}
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand\part[1]{%
-    \twocolumn[%
-    \begin{center}
-        \vskip-\lastskip%
-        {\usekomafont{part} #1} \par
-        \bigskip
-        \vspace{10 mm}
-    \end{center}]}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{url}
+\usepackage{hyperref}
+
+\name{Jian(Jonathan) Yang} % Your name
+\address{478 Felton Dr \\ Menlo Park, CA 94025} % Your address
+\address{(412)~$\cdot$~206~$\cdot$~9622 \\ cmu.jonathan@gmail.com \\ \href{https://www.linkedin.com/in/jianjonathanyang} {www.linkedin.com/in/jianjonathanyang}} 
 
 \begin{document}
 
-\vspace{10 mm}
-\part{Jian(Jonathan) Yang}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Carnegie Mellon University} \hfill { August 2012 - December 2013} \\ 
+Master of Information Systems Management GPA: 3.4
+
+{\bf Xi'an University of Science and Technology} \hfill { September 2008 - July 2012} \\ 
+Bachelor of Electronics and Information Engineering GPA: 3.4
 
 
-\section{Work Experience}
+\end{rSection}
 
-\begin{eventlist}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
 
-\item{February 2014 -- August 2014}
-     {Software Engineer}
-     {\bf\normalsize Branding Brand, Pittsburgh, PA}
-    
+\begin{rSection}{Employment Experience}
 
-Developed and maintained Android applications for world's leading retailers such as \href{http://play.google.com/store/apps/details?id=com.ae.ae}{American Eagle Outfitters} and \href{https://play.google.com/store/apps/details?id=com.vitacost.android}{Vitacost}. Implemented tools and frameworks utilized by the Android team.
+\begin{rSubsection}{Gogobot, Inc}{December 2014 - Present}{Mobile Software Engineer, Android}{Menlo Park, CA}
+\item Developing new features and maintaining existing code base for Gogobot Android Apps.
+\item Working on bug fixing and improving application performance. 
+\end{rSubsection}
 
-\item{January 2013 -- October 2013}
-     {Research Assistant}
-     {\bf\normalsize Carnegie Mellon University, Pittsburgh, PA}
+%------------------------------------------------
 
-Gathered and analyzed data for a project involving Facebook for Professor \href{http://www.heinz.cmu.edu/~acquisti/}{Alessandro Acquisti}. Reduced time to fetch data from various websites by 80\% by coding Ruby script for the entire research team. This project is featured in the Wall Street Journal: \href{http://tinyurl.com/lye4lrc}{http://tinyurl.com/lye4lrc}
+\begin{rSubsection}{Carnegie Mellon University}{August 2014 - December 2014}{Temporary Programmer}{Pittsburgh, PA}
+\item Gathered and validated data for a project involving online privacy.
+\item Parsed HTML raw files with Ruby scripts and generated CSV files.
+\end{rSubsection}
 
-\item{June 2013 -- August 2013}
-     {Software Engineer Intern}
-	 {\bf\normalsize Silver Spring Networks, Redwood City, CA}
-     
-
-Coded a craigslist-like web mashup using Ruby, Ruby on Rails, Heroku, Web Scraping, etc. Programmed a plugin which extracts data from database and executed them into pie charts.
-Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
-
-\end{eventlist}
-
-
-\section{Academic Projects}
-\begin{eventlist}
-
-\item{February 2013}
-     {\bf Gift Suggestion Application}
-     {\normalsize Java, Java Servlet, JSP, NetBeans}
-     
-Designed a web application that suggests gift ideas in picture format when users type in holiday names. Screen scraped etsy.com and subtracted image URLs from returned HTML documents.
-
-\item{January 2012 -- May 2012}
-     {\bf Android Video Surveillance App}
-     {\normalsize Java, XML, Android SDK, Eclipse, HTTP, RTSP}
-
-Coded an app for users to monitor multiple video streams from security cameras in real-time. Reduced 1,500+ lines of code to 1,000 by encapsulating code into commonly used methods. Applied the model-view-controller pattern to enable easy maintenance.
+\begin{rSubsection}{Branding Brand, Inc}{February 2014 - August 2014}{Software Engineer, Android}{Pittsburgh, PA}
+\item Developed and maintained Android app for American Eagle Outfitters.
+\item Debugged existing client applications and fixed submitted JIRA issues from QA team.
+\item Implemented tools and framework utilized by the Android team.  
+\end{rSubsection}
 
 
+%------------------------------------------------
 
-\personal
-	[www.linkedin.com/in/jianjonathanyang/]
-    {203 S Craig Str \newline -- Pittsburgh, PA 15213}
-    {412-206-9622}
-    {cmu.jonathan@gmail.com}
-\section{Education}
-\begin{yearlist}
+\begin{rSubsection}{Silver Spring Networks}{June 2013 - August 2013}{Software Engineer Intern}{Redwood City, CA}
+\item Coded a Craigslist-like web mashup using Ruby, Ruby on Rails, Heroku, Web Scraping, etc.
+\item Programmed a plugin that extracted data from a database and executed them into pie charts.
+\item Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
+\end{rSubsection}
 
-\item[Master of Information Systems Management GPA: 3.4]{2012 -- 2013}
-     {Carnegie Mellon University}
-     {Pittsburgh, PA}
+\end{rSection}
 
-\item[B.E. Electrical Engineering GPA: 3.4]{2008 -- 2012}
-     {Xi'an University of Science and Technology}
-     {Xi'an, China}  
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
 
-\end{yearlist}
+\begin{rSection}{Academic Projects}
 
-\section{Computer skills}
+\begin{rSubsection}{Ajax Shopping Cart}{September 2013}{}{}
+\item Built a dynamic web-based shopping cart using JavaScript, Bootstrap and JSON on Glassfish server.
+\item Implemented functionalities of Add, Update and Deletion of items asynchronously with Ajax. 
+\end{rSubsection}
 
-\begin{factlist}
-
-
-\item{Technologies}
-     {Android SDK, JSON, XML, XSLT, REST, Git, XSLT, JSP, phpMyAdmin, MySQL}
-     
-\item{Languages}
-     {Java, HTML, CSS, Ruby, SQL, C/C++}
-     
-\item{Platforms}
-     {Mac OS, Windows, Linux}
-
-\end{factlist}
-
-\section{Awards}
-\begin{yearlist}
-
-\item[Online social networks and hiring discrimination study, Carnegie Mellon University]{May 2013}
-     {Going The Extra Mile Award}
-
-\item[A fleding project, ranked 6th out of 100 projects in Heinz College's C-Squad competition]{August 2012}
-     {Semi-final, Carpool} 
-
-\end{yearlist}
+\begin{rSubsection}{Gift Suggestion Application}{February 2013}{}{}
+\item Designed a web application that suggests gift ideas in picture format when users type in holiday names. 
+\item Screen scraped etsy.com and subtracted image URLs from returned HTML files with Java Servlet.
+\end{rSubsection}
 
 
-\section{Miscellaneous}
-
-\begin{yearlist}
-
-\item[Translator for three medical teams of voluntary American ophthalmologists
-performing eye surgeries for patients in Northwestern China]{July 2012}
-	{Volunteer, GANSUINC}
-    
-\end{yearlist}
+\end{rSection}
 
 
-\end{eventlist}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Java, HTML, CSS, Ruby, SQL, C/C++\\
+Protocols \& APIs & Android SDK, XML, JSON, SOAP, REST, HTTP, TCP/IP, UDP\\
+Operating Systems & MacOS, Linux, Windows \\
+Tools & GitHub, Android Studio, Intellij, Eclipse, NetBeans, JIRA, Heroku
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
 
 \end{document}
-
