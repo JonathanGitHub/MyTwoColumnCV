@@ -55,7 +55,7 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 
 \begin{rSubsection}{Gogobot, Inc}{December 2014 - March 2015}{Mobile Software Engineer, Android}{Menlo Park, CA}
 \item Developed new features and maintained existing code base for \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {Gogobot Android App}. \href{http://bit.ly/1g8b3xK}{bit.ly/1g8b3xK}
-\item Fixed various bugs for the app and improved application performance. 
+\item Fixed various bugs, improved user experience and enhanced app performance. 
 \end{rSubsection}
 
 \begin{rSubsection}{Branding Brand, Inc}{February 2014 - September 2014}{Software Engineer, Android}{Pittsburgh, PA}
