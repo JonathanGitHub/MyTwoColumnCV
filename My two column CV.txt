@@ -53,19 +53,12 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 
 \begin{rSection}{Employment Experience}
 
-\begin{rSubsection}{Gogobot, Inc}{December 2014 - Present}{Mobile Software Engineer, Android}{Menlo Park, CA}
-\item Developing new features and maintaining existing code base for Gogobot Android Apps.
-\item Working on bug fixing and improving application performance. 
+\begin{rSubsection}{Gogobot, Inc}{December 2014 - March 2015}{Mobile Software Engineer, Android}{Menlo Park, CA}
+\item Developed new features and maintained existing code base for \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {Gogobot Android App}. \href{http://bit.ly/1g8b3xK}{bit.ly/1g8b3xK}
+\item Fixed various bugs for the app and improved application performance. 
 \end{rSubsection}
 
-%------------------------------------------------
-
-\begin{rSubsection}{Carnegie Mellon University}{August 2014 - December 2014}{Temporary Programmer}{Pittsburgh, PA}
-\item Gathered and validated data for a project involving online privacy.
-\item Parsed HTML raw files with Ruby scripts and generated CSV files.
-\end{rSubsection}
-
-\begin{rSubsection}{Branding Brand, Inc}{February 2014 - August 2014}{Software Engineer, Android}{Pittsburgh, PA}
+\begin{rSubsection}{Branding Brand, Inc}{February 2014 - September 2014}{Software Engineer, Android}{Pittsburgh, PA}
 \item Developed and maintained Android app for American Eagle Outfitters.
 \item Debugged existing client applications and fixed submitted JIRA issues from QA team.
 \item Implemented tools and framework utilized by the Android team.  
@@ -88,15 +81,18 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 
 \begin{rSection}{Academic Projects}
 
-\begin{rSubsection}{Ajax Shopping Cart}{September 2013}{}{}
-\item Built a dynamic web-based shopping cart using JavaScript, Bootstrap and JSON on Glassfish server.
-\item Implemented functionalities of Add, Update and Deletion of items asynchronously with Ajax. 
+\begin{rSubsection}{Android Bilingual Dictionary}{March 2013}{}{}
+\item Wrote an app that translates English words into Chinese characters and provides associated sentence examples. \href{http://tinyurl.com/k847r9v}{http://tinyurl.com/k847r9v}
+\item Used asynchronous task to handle network operations and enable easy use of the UI thread.
+\item Developed a web server that provides a dictionary API for the app, pushed on Google App Engine.
+
 \end{rSubsection}
 
-\begin{rSubsection}{Gift Suggestion Application}{February 2013}{}{}
-\item Designed a web application that suggests gift ideas in picture format when users type in holiday names. 
-\item Screen scraped etsy.com and subtracted image URLs from returned HTML files with Java Servlet.
+\begin{rSubsection}{Android Video Surveillance App}{January 2012 - May 2012}{}{}
+\item Coded an app for users to monitor multiple video streams from security cameras in real-time. 
+\item Applied the MVC concept to enable easy maintenance. \href{http://tinyurl.com/ksvmogt} {http://tinyurl.com/ksvmogt}
 \end{rSubsection}
+
 
 
 \end{rSection}
@@ -109,10 +105,9 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java, HTML, CSS, Ruby, SQL, C/C++\\
 Protocols \& APIs & Android SDK, XML, JSON, SOAP, REST, HTTP, TCP/IP, UDP\\
-Operating Systems & MacOS, Linux, Windows \\
-Tools & GitHub, Android Studio, Intellij, Eclipse, NetBeans, JIRA, Heroku
+Tools & GitHub, Android Studio, Intellij, Eclipse, NetBeans, JIRA, Heroku\\
+Programming Languages & Java, HTML/CSS, Ruby 
 \end{tabular}
 
 \end{rSection}
