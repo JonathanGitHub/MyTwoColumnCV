@@ -39,10 +39,10 @@
 \begin{rSection}{Education}
 
 {\bf Carnegie Mellon University} \hfill { August 2012 - December 2013} \\ 
-Master of Information Systems Management GPA: 3.4
+Master of Information Systems Management 
 
 {\bf Xi'an University of Science and Technology} \hfill { September 2008 - July 2012} \\ 
-Bachelor of Electronics and Information Engineering GPA: 3.4
+Bachelor of Electronics and Information Engineering 
 
 
 \end{rSection}
@@ -54,21 +54,21 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 \begin{rSection}{Employment Experience}
 
 \begin{rSubsection}{Gogobot, Inc}{December 2014 - March 2015}{Mobile Software Engineer, Android}{Menlo Park, CA}
-\item Developed new features and maintained existing code base for \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {Gogobot Android App}. \href{http://bit.ly/1g8b3xK}{bit.ly/1g8b3xK}
-\item Fixed various bugs, improved user experience and enhanced app performance. 
+\item Developed interactive map features for award winning \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {Gogobot Android app} with Google Maps SDK.
+\item Integrated and modified open source library AndroidSlidingUpPanel for internal use. 
+\item Parsed JSON data from API and populated them into Java objects.
+\item Worked closely with designers and product team to implement new UI and fix bugs.
+\item Implemented Floating Action button with animation effects on splash screen according to material design principles.  \href{http://bit.ly/1FA17x3}{              Demo video: http://bit.ly/1FA17x3}
 \end{rSubsection}
 
 \begin{rSubsection}{Branding Brand, Inc}{February 2014 - September 2014}{Software Engineer, Android}{Pittsburgh, PA}
 \item Developed and maintained Android app for American Eagle Outfitters.
 \item Debugged existing client applications and fixed submitted JIRA issues from QA team.
-\item Implemented tools and framework utilized by the Android team.  
 \end{rSubsection}
-
 
 %------------------------------------------------
 
 \begin{rSubsection}{Silver Spring Networks}{June 2013 - August 2013}{Software Engineer Intern}{Redwood City, CA}
-\item Coded a Craigslist-like web mashup using Ruby, Ruby on Rails, Heroku, Web Scraping, etc.
 \item Programmed a plugin that extracted data from a database and executed them into pie charts.
 \item Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
 \end{rSubsection}
@@ -88,11 +88,10 @@ Bachelor of Electronics and Information Engineering GPA: 3.4
 
 \end{rSubsection}
 
-\begin{rSubsection}{Android Video Surveillance App}{January 2012 - May 2012}{}{}
-\item Coded an app for users to monitor multiple video streams from security cameras in real-time. 
-\item Applied the MVC concept to enable easy maintenance. \href{http://tinyurl.com/ksvmogt} {http://tinyurl.com/ksvmogt}
+\begin{rSubsection}{Gift Suggestion Application}{February 2013}{}{}
+\item Designed a web application that suggests gift ideas in picture format when users type in holiday names. 
+\item Screen scraped etsy.com and subtracted image URLs from returned HTML files with Java Servlet.
 \end{rSubsection}
-
 
 
 \end{rSection}
