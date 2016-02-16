@@ -26,8 +26,10 @@
 \usepackage{url}
 \usepackage{hyperref}
 
-\name{Jian(Jonathan) Yang} % Your name
-\address{478 Felton Dr \\ Menlo Park, CA 94025} % Your address
+\name{Jian Yang} % Your name
+%--
+\address{2111 25th Ave \\ San Francisco, CA 94116} % Your address
+%
 \address{(412)~$\cdot$~206~$\cdot$~9622 \\ cmu.jonathan@gmail.com \\ \href{https://www.linkedin.com/in/jianjonathanyang} {www.linkedin.com/in/jianjonathanyang}} 
 
 \begin{document}
@@ -38,12 +40,11 @@
 
 \begin{rSection}{Education}
 
-{\bf Carnegie Mellon University} \hfill { August 2012 - December 2013} \\ 
-Master of Information Systems Management 
+{\bf Carnegie Mellon University} \hfill {August 2012 - December 2013} \\ 
+\it M.S. Information Systems Management    \hfill \it Pittsburgh, PA
 
-{\bf Xi'an University of Science and Technology} \hfill { September 2008 - July 2012} \\ 
-Bachelor of Electronics and Information Engineering 
-
+{\bf Xi'an University of Science and Technology} \hfill \upshape {September 2008 - July 2012} \\ 
+\it B.E. Electronics and Information Engineering  \hfill \it Xi'an, China
 
 \end{rSection}
 
@@ -53,46 +54,53 @@ Bachelor of Electronics and Information Engineering
 
 \begin{rSection}{Employment Experience}
 
-\begin{rSubsection}{Gogobot, Inc}{December 2014 - March 2015}{Mobile Software Engineer, Android}{Menlo Park, CA}
-\item Developed interactive map features for award winning \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {Gogobot Android app} with Google Maps SDK.
-\item Integrated and modified open source library AndroidSlidingUpPanel for internal use. 
-\item Parsed JSON data from API and populated them into Java objects.
-\item Worked closely with designers and product team to implement new UI and fix bugs.
-\item Implemented Floating Action button with animation effects on splash screen according to material design principles.  \href{http://bit.ly/1FA17x3}{              Demo video: http://bit.ly/1FA17x3}
+
+\begin{rSubsection}{Capital One}{April 2015 - Current}{Android Developer}{San Francisco, CA}
+\item Developed and maintained home loans, auto loans, and credit cards features for \href{https://play.google.com/store/apps/details?id=com.capitalone.mobile.banking.beta&hl=en} {Capital One® Mobile App}, which supports more than 5 million active users financial activities.
+\item Enabled user behavior analysis with Adobe SiteCatalyst SDK and tracked bugs with Crashlytics.
+\item Performed code review, fixed UI bugs, and documented technical solutions for knowledge sharing.
+%\item Design, build, and maintain Java code for , specifically for Credit Card and Loan products, as well as app wide Enterprise features.
+\item Used Gradle build toolkit for generating Alpha, Beta, Developer and Production builds.
+\item  \href{http://bit.ly/1Cb7sdD}{App link: http://bit.ly/1Cb7sdD}
 \end{rSubsection}
 
-\begin{rSubsection}{Branding Brand, Inc}{February 2014 - September 2014}{Software Engineer, Android}{Pittsburgh, PA}
-\item Developed and maintained Android app for American Eagle Outfitters.
+
+\begin{rSubsection}{Gogobot}{December 2014 - March 2015}{Mobile Software Engineer, Android}{Menlo Park, CA}
+\item Implemented Google Maps' bottom-sheet 3 phases feature using open source library AndroidSlidingUpPanel for \href{https://play.google.com/store/apps/details?id=com.gogobot.gogodroid&hl=en} {travel planning app Gogobot}, and it was tagged with Editor's Choice on Google Play.
+%\item Integrated and modified open source library AndroidSlidingUpPanel for internal use. 
+\item Parsed JSON data from API with Java serialization library Gson and populated them into Java objects.
+\item Contributed input for UI guidelines, fixed Pivotal Tracker bugs, and published  apps on Google Play.
+%\item Worked closely with designers and product team to implement new UI and fix bugs.
+\item Implemented FAB with animation effects on splash screen according to material design principles.
+\item \href{http://bit.ly/1FA17x3}{Demo video: http://bit.ly/1FA17x3}
+\end{rSubsection}
+
+\begin{rSubsection}{Branding Brand}{February 2014 - September 2014}{Software Engineer, Android}{Pittsburgh, PA}
+\item Developed the first native Android app for American Eagle Outfitters with 1 million downloads.
 \item Debugged existing client applications and fixed submitted JIRA issues from QA team.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Silver Spring Networks}{June 2013 - August 2013}{Software Engineer Intern}{Redwood City, CA}
-\item Programmed a plugin that extracted data from a database and executed them into pie charts.
-\item Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
-\end{rSubsection}
+%\begin{rSubsection}{Silver Spring Networks}{June 2013 - August 2013}{Software Engineer Intern}{Redwood City, CA}
+%\item Programmed a plugin that extracted data from a database and executed them into pie charts.
+%\item Wrote Ruby test scripts for programs installed in smart meters and pushed them in SVN.
+%\end{rSubsection}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-
-\begin{rSection}{Academic Projects}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Independent Project}
 
 \begin{rSubsection}{Android Bilingual Dictionary}{March 2013}{}{}
-\item Wrote an app that translates English words into Chinese characters and provides associated sentence examples. \href{http://tinyurl.com/k847r9v}{http://tinyurl.com/k847r9v}
+\item Wrote an app that translates English words into Chinese characters and provides associated sentence. %examples. \href{http://tinyurl.com/k847r9v}{http://tinyurl.com/k847r9v}
 \item Used asynchronous task to handle network operations and enable easy use of the UI thread.
 \item Developed a web server that provides a dictionary API for the app, pushed on Google App Engine.
 
 \end{rSubsection}
-
-\begin{rSubsection}{Gift Suggestion Application}{February 2013}{}{}
-\item Designed a web application that suggests gift ideas in picture format when users type in holiday names. 
-\item Screen scraped etsy.com and subtracted image URLs from returned HTML files with Java Servlet.
-\end{rSubsection}
-
 
 \end{rSection}
 
@@ -105,8 +113,8 @@ Bachelor of Electronics and Information Engineering
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Protocols \& APIs & Android SDK, XML, JSON, SOAP, REST, HTTP, TCP/IP, UDP\\
-Tools & GitHub, Android Studio, Intellij, Eclipse, NetBeans, JIRA, Heroku\\
-Programming Languages & Java, HTML/CSS, Ruby 
+Tools & Git, Android Studio, Intellij, NetBeans, JIRA, SourceTree, Gradle\\
+Programming Languages & Java, HTML, Ruby, SQL
 \end{tabular}
 
 \end{rSection}
